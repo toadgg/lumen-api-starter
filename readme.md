@@ -1,3 +1,5 @@
+![](http://bibihub.oss-cn-hangzhou.aliyuncs.com/php/lumen-banner.png)
+
 ## Lumen-Api-Starter
 
 Lumen-Api-Starter is a backbone framework integration [Lumen] & [Dingoapi] & [Oauth2].
