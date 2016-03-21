@@ -11,8 +11,8 @@ class OAuthSeeder extends Seeder {
         app('db')->table("oauth_clients")->delete();
 
         app('db')->table("oauth_clients")->insert([
-            'id' => $config->get('secrets.client_id'),
-            'secret' => $config->get('secrets.client_secret'),
+            'id' => $config->get('app.client_id'),
+            'secret' => $config->get('app.client_secret'),
             'name' => 'Lumen Api Starter'
         ]);
     }
